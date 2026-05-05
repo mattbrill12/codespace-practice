@@ -1,0 +1,44 @@
+.app {
+  min-height: 100vh;
+  padding: 48px 24px;
+  background: #f6f7f9;
+  color: #000;
+}
+
+.card {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 24px;
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+}
+
+.item-list {
+  display: grid;
+  gap: 8px;
+  padding: 0;
+  margin: 0 0 16px;
+  list-style: none;
+}
+
+.item-row {
+  padding: 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #f9fafb;
+}
+
+button {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: white;
+  cursor: pointer;
+  color: #000;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
